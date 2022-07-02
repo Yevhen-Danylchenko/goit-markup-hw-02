@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body {
+	font-family: 'Roboto';
+}
+
+.header {
+	width: 1600px;
+	height: 80px;
+	margin: 0px 0px 2349px 0px;
+}
+
+.nav {
+	width: 1600px;
+	height: 80px;
+	margin: 32px 853px 32px 453px; 
+}
+
+.ul-nav {
+	width: 294px;
+	height: 16px;
+	display: inline;
+	margin: 32px 853px 32px 453px;
+}
+
+.studio {
+	width: 49px;
+	height: 16px;
+	margin: 0px 1098px 0px 453px;
+}
+
+.portfolio {
+	width: 77px;
+	height: 16px;
+	margin: 0px 971px 0px 552px;
+}
+
+.contact {
+	width: 68px;
+	height: 16px;
+	margin: 0px 853px 0px 679px;
+}
