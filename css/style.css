@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+	--background-color: #F5F5F5;
+	--title-text-color: #212121;
+	--par-text-color: #757575;
+	--link-text-color: #2196F3;
+	--link-text-color-focus: #212121;
+	--button-text-color: #FFFFFF;
+	--button-background-color: #2196F3;
+	--background-section: #2F303A;
+	--button-background-color-focus: blue;
+}
+
+
+.body {
+	position: relative;
+	background-color: var(--background-color);
+	color: var(--title-text-color);
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+.link {
+	color: var(--link-text-color-fokus);
+}
+
+.link:hover, 
+.link:focus {
+	color: var(--link-text-color);
+}
+
+.button {
+	border-radius: 4px;
+	border: 0px;
+	padding: 10px 32px;
+	min-width: 200px;
+	min-height: 50px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	margin: 350px 700px 200px 700px;
+}
+
+.button,
+.list .filter-button:hover,
+.list .filter-button:focus {
+	color: var(--button-text-color);
+	background: var(--button-background-color);
+	cursor: pointer;
+}
+
+
+
+.section {
+	width: 1600px;
+	height: 600px;
+	margin: 80px 0px 1669px 0px;
+	background: var(--background-section);
+}
+
+.section-two {
+	position: absolute;
+	width: 1170px;
+	height: 301px;
+	margin-top: 680px;
+	margin-right: 215px;
+	margin-left: 215px;
+}
+
+.hat {
+	margin: 0px 0px 1669px 0px;
+}
+
+.title {
+	position: absolute;
+	width: 696px;
+	height: 120px;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 60px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 200px 452px 280px 452px; 
+}
+
+.title-2 {
+	position: absolute;
+	width: 700px;
+	height: 100px;
+	font-weight: 900;
+	font-size: 30px;
+	text-align: center;
+  	color: var(--title-text-color);
+	margin: 0px 450px 1574px 450px;
+}
+
+.par {
+	color: var(--par-text-color);
+}
